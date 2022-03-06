@@ -63,5 +63,5 @@ def run_alignment(image_path):
         print('Done.')
     predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
     aligned_image = align_face(filepath=image_path, predictor=predictor)
-    print(f"Finished running alignment on image: {image_path}")
+    #print(f"Finished running alignment on image: {image_path}")
     return aligned_image
